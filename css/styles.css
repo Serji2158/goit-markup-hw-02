@@ -19,6 +19,7 @@
   line-height: 1.19;
   color: #2196f3;
 }
+
 .logo-studio {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -35,10 +36,8 @@
 }
 
 .list .header-title:hover,
-.list .header-title-current{
+.list .header-title-current {
   color: #2196f3;
-}
-
 }
 
 .header-contacts {
