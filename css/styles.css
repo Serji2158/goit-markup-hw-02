@@ -7,6 +7,10 @@
   background-color: #ffffff;
 }
 
+.list {
+  list-style: none;
+}
+
 /* Хедер */
 
 .logo {
@@ -42,10 +46,6 @@
 
 .projects {
   color: #ffffff;
-}
-
-.list {
-  list-style: none;
 }
 
 .filter-button:hover,
