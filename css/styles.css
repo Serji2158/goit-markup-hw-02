@@ -12,19 +12,20 @@
 
 /* Хедер */
 
-.logo {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 700;
-  font-size: 26 px;
-  line-height: 1.2;
-}
 .logo-web {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26 px;
-  line-height: 1.2;
+  line-height: 1.19;
   color: #2196f3;
 }
+.logo-studio {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26 px;
+  line-height: 1.19;
+}
+
 .header-title {
   font-weight: 500;
   font-size: 14 px;
@@ -33,8 +34,11 @@
   color: #212121;
 }
 
-.list .header-title:hover {
+.list .header-title:hover,
+.list .header-title-current{
   color: #2196f3;
+}
+
 }
 
 .header-contacts {
@@ -106,4 +110,12 @@
 .footer-contacts:hover,
 .footer-contacts:focus {
   color: #2196f3;
+}
+
+.logo-studio-footer {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26 px;
+  line-height: 1.19;
+  color: #ffffff;
 }
