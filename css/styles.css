@@ -1,0 +1,90 @@
+.body {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  letter-spacing: 0.03 em;
+  color: #212121;
+  background-color: #ffffff;
+}
+
+/* Хедер */
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26 px;
+  line-height: 1.2;
+}
+.logo-web {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26 px;
+  line-height: 1.2;
+  color: #2196f3;
+}
+.header-title {
+  font-weight: 500;
+  font-size: 14 px;
+  line-height: 1.14;
+  letter-spacing: 0.02 em;
+}
+
+.header-contacts:hover,
+.header-contacts:focus {
+  font-weight: 500;
+  font-size: 14 px;
+  line-height: 1.14 px;
+  letter-spacing: 0.02 em;
+  color: #757575;
+}
+
+/* Портфолио */
+
+.portfolio-title {
+  color: #ffffff;
+}
+
+.list {
+  list-style: none;
+}
+
+.list-cursor {
+  cursor: pointer;
+}
+.filter-button:hover,
+.filter-button:focus {
+  background: #2196f3;
+  font-weight: 500;
+  font-size: 16 px;
+  line-height: 1.62;
+  text-align: center;
+}
+
+.project-name {
+  font-weight: 700;
+  font-size: 18 px;
+  line-height: 2;
+  letter-spacing: 0.06 em;
+}
+
+.project-type {
+  font-weight: 400;
+  font-size: 16 px;
+  line-height: 1.87;
+  color: #757575;
+}
+
+/* Футер */
+
+.footer-address {
+  font-weight: 400;
+  font-size: 14 px;
+  line-height: 1.71;
+  color: #ffffff;
+}
+
+.footer-contacts {
+  font-weight: 400;
+  font-size: 14 px;
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
+}
