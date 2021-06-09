@@ -71,15 +71,12 @@
 }
 
 .project-name {
-  font-weight: 700;
   font-size: 18 px;
   line-height: 2;
   letter-spacing: 0.06 em;
 }
 
 .project-type {
-  font-weight: 400;
-  font-size: 16 px;
   line-height: 1.87;
   color: #757575;
 }
