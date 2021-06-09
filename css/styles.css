@@ -1,8 +1,9 @@
-.body {
+.page {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   letter-spacing: 0.03 em;
   color: #212121;
+
   background-color: #ffffff;
 }
 
@@ -47,16 +48,14 @@
   list-style: none;
 }
 
-.list-cursor {
-  cursor: pointer;
-}
-
 .filter-button:hover,
 .filter-button:focus {
   font-weight: 500;
   font-size: 16 px;
   line-height: 1.62;
   text-align: center;
+  cursor: pointer;
+
   background: #2196f3;
 }
 
@@ -75,6 +74,10 @@
 }
 
 /* Футер */
+
+.footer {
+  background: #2f303a;
+}
 
 .footer-address,
 .footer-contacts {
