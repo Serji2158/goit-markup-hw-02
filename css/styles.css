@@ -2,7 +2,6 @@
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   letter-spacing: 0.03 em;
-  color: #212121;
 
   background-color: #ffffff;
 }
@@ -31,15 +30,24 @@
   font-size: 14 px;
   line-height: 1.14;
   letter-spacing: 0.02 em;
+  color: #212121;
 }
 
-.header-contacts:hover,
-.header-contacts:focus {
+.list .header-title:hover {
+  color: #2196f3;
+}
+
+.header-contacts {
   font-weight: 500;
   font-size: 14 px;
   line-height: 1.14 px;
   letter-spacing: 0.02 em;
   color: #757575;
+}
+
+.header-contacts:hover,
+.header-contacts:focus {
+  color: #2196f3;
 }
 
 /* Портфолио */
@@ -79,8 +87,7 @@
   background: #2f303a;
 }
 
-.footer-address,
-.footer-contacts {
+.footer-address {
   font-weight: 400;
   font-size: 14 px;
   line-height: 1.71;
@@ -89,5 +96,14 @@
 }
 
 .footer-contacts {
+  font-weight: 400;
+  font-size: 14 px;
+  line-height: 1.71;
+  font-style: normal;
   color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-contacts:hover,
+.footer-contacts:focus {
+  color: #2196f3;
 }
