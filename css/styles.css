@@ -1,5 +1,5 @@
-.page {
-  font-family: 'Roboto', sans-serif;
+.body {
+  font-family: 'Roboto', 'Verdana', 'Tahoma', sans-serif;
   font-style: normal;
   letter-spacing: 0.03 em;
 
@@ -91,7 +91,6 @@
 }
 
 .footer-address {
-  font-weight: 400;
   font-size: 14 px;
   line-height: 1.71;
   font-style: normal;
@@ -99,7 +98,6 @@
 }
 
 .footer-contacts {
-  font-weight: 400;
   font-size: 14 px;
   line-height: 1.71;
   font-style: normal;
