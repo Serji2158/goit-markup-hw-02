@@ -39,7 +39,7 @@
 
 /* Портфолио */
 
-.portfolio-title {
+.projects {
   color: #ffffff;
 }
 
@@ -50,13 +50,14 @@
 .list-cursor {
   cursor: pointer;
 }
+
 .filter-button:hover,
 .filter-button:focus {
-  background: #2196f3;
   font-weight: 500;
   font-size: 16 px;
   line-height: 1.62;
   text-align: center;
+  background: #2196f3;
 }
 
 .project-name {
@@ -75,16 +76,15 @@
 
 /* Футер */
 
-.footer-address {
-  font-weight: 400;
-  font-size: 14 px;
-  line-height: 1.71;
-  color: #ffffff;
-}
-
+.footer-address,
 .footer-contacts {
   font-weight: 400;
   font-size: 14 px;
   line-height: 1.71;
+  font-style: normal;
+  color: #ffffff;
+}
+
+.footer-contacts {
   color: rgba(255, 255, 255, 0.6);
 }
