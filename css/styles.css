@@ -1,7 +1,9 @@
 .body {
   font-family: 'Roboto', 'Verdana', 'Tahoma', sans-serif;
   font-style: normal;
-  letter-spacing: 0.03 em;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.03em;
 
   background-color: #ffffff;
 }
@@ -22,7 +24,7 @@
 .logo-web {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
-  font-size: 26 px;
+  font-size: 26px;
   line-height: 1.19;
   color: var(--WEB-BG-color);
 }
@@ -30,16 +32,15 @@
 .logo-studio {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
-  font-size: 26 px;
+  font-size: 26px;
   line-height: 1.19;
   color: #000000;
 }
 
 .header-title {
   font-weight: 500;
-  font-size: 14 px;
   line-height: 1.14;
-  letter-spacing: 0.02 em;
+  letter-spacing: 0.02em;
   color: var(--title-color);
 }
 
@@ -50,9 +51,8 @@
 
 .header-contacts {
   font-weight: 500;
-  font-size: 14 px;
-  line-height: 1.14 px;
-  letter-spacing: 0.02 em;
+  line-height: 1.14px;
+  letter-spacing: 0.02em;
   color: var(--text-color);
 }
 
@@ -67,24 +67,30 @@
   color: var(--text-color-white);
 }
 
-.filter-button:hover,
-.filter-button:focus {
+.filter {
   font-weight: 500;
-  font-size: 16 px;
+  font-size: 16px;
   line-height: 1.62;
   text-align: center;
+}
+
+.filter-button:hover,
+.filter-button:focus {
   cursor: pointer;
   color: var(--text-color-white);
+
   background: var(--text-BG-color);
 }
 
 .project-name {
-  font-size: 18 px;
+  font-weight: 700;
+  font-size: 18px;
   line-height: 2;
-  letter-spacing: 0.06 em;
+  letter-spacing: 0.06em;
 }
 
 .project-type {
+  font-size: 16px;
   line-height: 1.87;
   color: var(--text-color);
 }
@@ -96,16 +102,15 @@
 }
 
 .footer-address {
-  font-size: 14 px;
   line-height: 1.71;
   font-style: normal;
+}
+
+.footer-post-address {
   color: var(--text-color-white);
 }
 
 .footer-contacts {
-  font-size: 14 px;
-  line-height: 1.71;
-  font-style: normal;
   color: rgba(255, 255, 255, 0.6);
 }
 
@@ -117,7 +122,7 @@
 .logo-studio-footer {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
-  font-size: 26 px;
+  font-size: 26px;
   line-height: 1.19;
   color: var(--text-color-white);
 }
