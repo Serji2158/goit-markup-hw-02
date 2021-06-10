@@ -13,6 +13,7 @@
 :root {
   --title-color: #212121;
   --text-color: #757575;
+  --text-color-white: #ffffff;
   --text-BG-color: #2196f3;
   --WEB-BG-color: #2196f3;
 }
@@ -63,7 +64,7 @@
 /* Портфолио */
 
 .projects {
-  color: #ffffff;
+  color: var(--text-color-white);
 }
 
 .filter-button:hover,
@@ -73,7 +74,7 @@
   line-height: 1.62;
   text-align: center;
   cursor: pointer;
-
+  color: var(--text-color-white);
   background: var(--text-BG-color);
 }
 
@@ -98,7 +99,7 @@
   font-size: 14 px;
   line-height: 1.71;
   font-style: normal;
-  color: #ffffff;
+  color: var(--text-color-white);
 }
 
 .footer-contacts {
@@ -118,5 +119,5 @@
   font-weight: 700;
   font-size: 26 px;
   line-height: 1.19;
-  color: #ffffff;
+  color: var(--text-color-white);
 }
