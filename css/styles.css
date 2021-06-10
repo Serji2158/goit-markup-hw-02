@@ -10,6 +10,12 @@
   list-style: none;
 }
 
+:root {
+  --title-color: #212121;
+  --text-color: #757575;
+  --text-BG-color: #2196f3;
+  --WEB-BG-color: #2196f3;
+}
 /* Хедер */
 
 .logo-web {
@@ -17,7 +23,7 @@
   font-weight: 700;
   font-size: 26 px;
   line-height: 1.19;
-  color: #2196f3;
+  color: var(--WEB-BG-color);
 }
 
 .logo-studio {
@@ -25,6 +31,7 @@
   font-weight: 700;
   font-size: 26 px;
   line-height: 1.19;
+  color: #000000;
 }
 
 .header-title {
@@ -32,12 +39,12 @@
   font-size: 14 px;
   line-height: 1.14;
   letter-spacing: 0.02 em;
-  color: #212121;
+  color: var(--title-color);
 }
 
 .list .header-title:hover,
 .list .header-title-current {
-  color: #2196f3;
+  color: var(--text-BG-color);
 }
 
 .header-contacts {
@@ -45,12 +52,12 @@
   font-size: 14 px;
   line-height: 1.14 px;
   letter-spacing: 0.02 em;
-  color: #757575;
+  color: var(--text-color);
 }
 
 .header-contacts:hover,
 .header-contacts:focus {
-  color: #2196f3;
+  color: var(--text-BG-color);
 }
 
 /* Портфолио */
@@ -67,7 +74,7 @@
   text-align: center;
   cursor: pointer;
 
-  background: #2196f3;
+  background: var(--text-BG-color);
 }
 
 .project-name {
@@ -78,7 +85,7 @@
 
 .project-type {
   line-height: 1.87;
-  color: #757575;
+  color: var(--text-color);
 }
 
 /* Футер */
@@ -103,7 +110,7 @@
 
 .footer-contacts:hover,
 .footer-contacts:focus {
-  color: #2196f3;
+  color: var(--text-BG-color);
 }
 
 .logo-studio-footer {
