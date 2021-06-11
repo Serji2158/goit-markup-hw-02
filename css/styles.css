@@ -47,13 +47,20 @@ a {
   letter-spacing: 0.02em;
   color: var(--title-color);
 }
-
-.page-current {
+.header-title:hover,
+.header-title:focus {
   color: var(--text-BG-color);
 }
 
-.header-title:hover,
-.header-title:focus {
+.page-current {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--text-BG-color);
+}
+
+.page-current:hover,
+.page-current:focus {
   color: var(--text-BG-color);
 }
 
