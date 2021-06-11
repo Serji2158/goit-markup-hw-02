@@ -48,13 +48,12 @@ a {
   color: var(--title-color);
 }
 
-.page:hover,
-.page:focus {
+.page-current {
   color: var(--text-BG-color);
 }
 
-.page-current:hover,
-.page-current:focus {
+.header-title:hover,
+.header-title:focus {
   color: var(--text-BG-color);
 }
 
