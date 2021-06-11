@@ -8,7 +8,7 @@
   background-color: #ffffff;
 }
 
-.a {
+a {
   text-decoration: none;
 }
 
@@ -48,8 +48,13 @@
   color: var(--title-color);
 }
 
-.list .header-title:hover,
-.list .current-page {
+.page:hover,
+.page:focus {
+  color: var(--text-BG-color);
+}
+
+.page-current:hover,
+.page-current:focus {
   color: var(--text-BG-color);
 }
 
