@@ -87,6 +87,8 @@ ul {
 }
 
 .hero-button {
+  cursor: pointer;
+
   font-family: Roboto;
   font-weight: 700;
   font-size: 16px;
@@ -159,6 +161,7 @@ ul {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
+  align-items: center;
   text-align: center;
 }
 
