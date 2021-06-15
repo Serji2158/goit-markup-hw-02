@@ -87,6 +87,7 @@ ul {
 }
 
 .hero-button {
+  font-family: Roboto;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -129,6 +130,7 @@ ul {
 }
 
 /*-Студия--Наша команда-*/
+
 .team-name {
   font-weight: 500;
   font-size: 16px;
@@ -145,6 +147,7 @@ ul {
   letter-spacing: 0.03em;
   color: var(--text-color);
 }
+
 /* Портфолио */
 
 .projects {
