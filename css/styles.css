@@ -23,6 +23,13 @@ ul {
   --text-BG-color: #2196f3;
   --WEB-BG-color: #2196f3;
 }
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
 /* Хедер */
 
 .logo-web {
