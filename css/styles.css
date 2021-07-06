@@ -1,3 +1,9 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
   font-family: 'Roboto', 'Verdana', 'Tahoma', sans-serif;
   font-style: normal;
@@ -25,14 +31,34 @@ ul {
 }
 
 .container {
-  width: 1170px;
+  width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
+
+  border: 1px solid tomato;
+}
+
+h1,
+h2,
+h3,
+p,
+ul {
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 /* Хедер */
 
+.header {
+  border: 1px solid #ececec;
+}
+
 .logo-web {
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 24px;
+
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -41,11 +67,23 @@ ul {
 }
 
 .logo-studio {
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 24px;
+
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   color: #000000;
+}
+
+.navigation {
+  width: 294px;
+  height: 16px;
+  left: 453px;
+  top: 32px;
 }
 
 .header-title {
@@ -60,6 +98,11 @@ ul {
 }
 
 .page-current {
+  width: 49px;
+  height: 16px;
+  left: 453px;
+  top: 32px;
+
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -84,6 +127,9 @@ ul {
 }
 
 /*-Студия--Шапка-*/
+
+.hero {
+}
 
 .hero-title {
   font-weight: 900;
